@@ -5,7 +5,7 @@ import { AppModule } from "../src/app.module";
 
 describe("User (e2e)", () => {
   let app: INestApplication;
-  let token: string;//asdfasdf
+  let token: string;//asdfasdfasdfadsf
 
   beforeAll(async () => {
     const moduleFixture: TestingModule = await Test.createTestingModule({
