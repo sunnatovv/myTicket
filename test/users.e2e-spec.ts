@@ -9,10 +9,13 @@ describe("User (e2e)", () => {
 
   beforeAll(async () => {
     const moduleFixture: TestingModule = await Test.createTestingModule({
+
       imports: [AppModule],
     }).compile();
     app = moduleFixture.createNestApplication();
     app.useGlobalPipes(new ValidationPipe());
+    console.log("asdfasdf");
+    
     await app.init();
 
     // Perform signin to get the token for authorization
