@@ -49,7 +49,7 @@ describe("User (e2e)", () => {
         .send({
           name: "user30303",
           email: "user101@gmail.com",
-          login: "100/1Aa@",
+          login: "100as/1Aa@",
         })
         .expect("Content-Type", /json/)
         .expect(201)
