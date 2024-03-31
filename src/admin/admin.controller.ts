@@ -39,7 +39,7 @@ export class AdminController {
   @Get(":id")
   @ApiOperation({ summary: "Get Admin by id" })
   async findOne(@Param("id") id: string) {
-    return this.adminService.findOne(+id);
+    return this.adminService.findOne(+id);//asdfasdf
   }
 
   @Patch(":id")

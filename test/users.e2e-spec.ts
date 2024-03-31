@@ -47,7 +47,7 @@ describe("User (e2e)", () => {
       return request(app.getHttpServer())
         .post("/auth/signup")
         .send({
-          name: "user30303",
+          name: "usa30303",
           email: "user101@gmail.com",
           login: "100as/1Aa@",
         })
