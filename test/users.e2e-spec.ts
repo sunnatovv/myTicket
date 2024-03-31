@@ -19,8 +19,8 @@ describe("User (e2e)", () => {
     const response = await request(app.getHttpServer())
       .post("/auth/signin")
       .send({
-        email: "katimjond@gmail.com",
-        login: "karim0011",
+        email: "samandar77@gmail.com",
+        login: "3241skdjfbn21",
       });
     token = response.body.token;
   });
